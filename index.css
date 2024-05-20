@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 400vh;
+    
     z-index: -99;
     width: 100%;
 }
@@ -168,7 +168,7 @@ header {
 
 /* This is 2nd page */
 #Aboutpage {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     background-color: rgb(246, 245, 245);
 }
@@ -180,7 +180,7 @@ header {
     width: 100%;
     justify-content: center;
     position: absolute;
-    bottom: -200px;
+    margin-top: 50px;
 }
 
 #ti div {
@@ -241,11 +241,11 @@ header {
 #title {
     height: 200px;
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
     color: aliceblue;
+    text-align: center;
 }
 
 #ll,
@@ -450,160 +450,12 @@ header {
 
 }
 
-@media (max-width: 480px) and (min-width: 300px) {
-    #top1 {
-        left: 20px;
-    }
-
-    #top1 img {
-        opacity: 0;
-    }
-
-    #top1 h1 {
-        font-size: 20px;
-        left: 10px;
-        top: 40px;
-        color: rgb(0, 0, 12);
-        font-size: 60PX;
-        width: 350px;
-    }
-
-    #top1 h2 {
-        left: 20px;
-        top: 180px;
-        color: rgb(0, 0, 0);
-    }
-
-    #click {
-        height: 30px;
-        width: 100%;
-
-    }
-
-
-    #click a {
-        font-size: 15px;
-    }
-
-    #Button {
-        gap: 20px;
-    }
-
-    #Button div {
-        height: 150px;
-        width: 120px;
-
-    }
-
-    #Button div i {
-        font-size: 30px;
-    }
-
-    #Button div:hover h2 {
-        opacity: 0;
-    }
-
-    #Button div h2 {
-        font-size: 15px;
-        bottom: 50px;
-
-    }
-
-    #Aboutpage {
-        height: 150vh;
-        width: 100%;
-        background-color: rgb(246, 245, 245);
-    }
-
-
-    #l1,
-    #l2 {
-        opacity: 0;
-    }
 
 
 
-    #ti h1 {
-        font-size: 50px;
-        text-align: center;
-        margin-top: -100px;
-    }
 
 
-
-    #text1 {
-        left: 30px;
-        top: 2000px;
-    }
-
-
-    #text2 {
-        text-align: left;
-        left: 30px;
-        top: 1250px;
-    }
-
-    #Coursepage {
-        height: 160vh;
-        width: 100%;
-    }
-
-
-
-    #ll,
-    #rl {
-        opacity: 0;
-    }
-
-
-    #cont1,
-    #cont2 {
-        top: 3100px;
-    }
-
-    #cont3,
-    #cont4 {
-        top: 3500px;
-    }
-
-    #cont5,
-    #cont6 {
-        top: 3900px;
-    }
-
-    #cont1,
-    #cont3,
-    #cont5 {
-        left: 250px;
-    }
-
-    #cont2,
-    #cont4,
-    #cont6 {
-        left: 20px;
-    }
-
-
-    #lods{
-        top: 4700px;
-    }
-    #lods img {
-        height: 100px;
-        width: 100px;
-    
-    }
-    #logs img {
-        top: 5050px;
-    }
-
-    #atext {
-        top: 5250px;
-    }
-}
-
-
-
-@media (max-width: 768px) and (min-width: 481px) {
+@media (max-width: 768px) and (min-width: 381px) {
     #top1 {
         left: 20px;
     }
@@ -797,7 +649,7 @@ header {
     }
 
     #Aboutpage {
-        height: 150vh;
+        height: 60vh;
         width: 100%;
         background-color: rgb(246, 245, 245);
          
@@ -839,7 +691,7 @@ header {
     }
 
     #Coursepage {
-        height: 110vh;
+        height: 50vh;
         width: 100%;
     }
 
@@ -854,7 +706,7 @@ header {
     #cont1,
     #cont2,
     #cont3 {
-        top: 2500px;
+        top: 2600px;
     }
 
 
@@ -862,22 +714,21 @@ header {
     #cont5,
     #cont6,
     #cont4 {
-        top: 2900px;
+        top: 3000px;
     }
 
     #cont1,
     #cont5 {
-        left: 320px;
+        left: 400px;
     }
 
     #cont2,
     #cont6 {
-        left: 20px;
+        left: 80px;
     }
 
-    #cont4,
-    #cont3 {
-        left: 600px;
+    #cont4, #cont3 {
+        left: 720px;
     }
     #lods{
         top: 3500px;
@@ -887,14 +738,20 @@ header {
         width: 100px;
     
     }
-  
+     #calen{
+        height: 400px;
+     }
 
     #logs img {
-        top: 3750px;
+        top: 4150px;
     }
 
     #atext {
-        top: 3950px;
+        top: 4350px;
+        text-align: center;
+    }
+    #Contactpage{
+        height: auto;
     }
 }
 
