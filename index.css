@@ -3,22 +3,24 @@
     margin: 0;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     height: 400vh;
     z-index: -99;
 }
+
 header {
     height: 230px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    
+
 }
 
 /* This is 1st Page */
 .Homepage {
     height: 750px;
     width: 100%;
-    background-color:  rgb(246, 245, 245);
+    background-color: rgb(246, 245, 245);
 }
 
 
@@ -109,7 +111,8 @@ header {
 
 
 }
-#black{
+
+#black {
     height: 600px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
@@ -136,7 +139,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -161,12 +164,13 @@ header {
 
 
 /* This is 2nd page */
-#Aboutpage{
+#Aboutpage {
     height: 100vh;
     width: 100%;
     background-color: rgb(246, 245, 245);
 }
-#ti{
+
+#ti {
     display: flex;
     flex-direction: row;
     height: 100px;
@@ -175,153 +179,195 @@ header {
     position: absolute;
     bottom: -200px;
 }
-#ti div{
-  background-color: black;
-  height: 5px;
-  width: 32%;
-  position: absolute;
-  top: 30px;
-  border-radius: 20px;
+
+#ti div {
+    background-color: black;
+    height: 5px;
+    width: 32%;
+    position: absolute;
+    top: 30px;
+    border-radius: 20px;
 }
-#l1{
+
+#l1 {
     left: 0px;
 }
-#l2{
+
+#l2 {
     right: 0px;
 }
-#ti h1{
+
+#ti h1 {
     color: rgb(0, 0, 0);
     font-size: 50px;
 }
-#text1 , #text2{
-        top: 1300px;
-        height: 700px;
-        width: 500px;
-        position: absolute;
+
+#text1,
+#text2 {
+    top: 1300px;
+    height: 700px;
+    width: 500px;
+    position: absolute;
 }
 
-#text1{  
+#text1 {
     left: 400px;
     color: rgb(0, 0, 0);
     text-align: left;
 }
-#text1 p, #text2 p{
-   font-size: 20px;
+
+#text1 p,
+#text2 p {
+    font-size: 20px;
 }
-#text2{
+
+#text2 {
     text-align: left;
     right: 400px;
     color: rgb(0, 0, 0);
 }
+
 /* This is 3rd page */
 
-#Coursepage{
+#Coursepage {
     height: 100vh;
     width: 100%;
     background-color: rgb(99, 67, 7);
 }
-#title{
- height: 200px;
- width: 100%;
 
- display: flex;
- justify-content: center;
- align-items: center;
- color: aliceblue;
+#title {
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
 }
-#ll, #rl{
-   background-color: aliceblue;
-   height: 5px;
-   width: 40%;
-   position: absolute;
+
+#ll,
+#rl {
+    background-color: aliceblue;
+    height: 5px;
+    width: 40%;
+    position: absolute;
 }
-#ll{
+
+#ll {
     left: 0px;
 }
-#rl{
-  right: 0px;
+
+#rl {
+    right: 0px;
 }
 
-#cont1 , #cont2, #cont3{
-   height: 300px;
-   width: 200px;
-   background-color: rgb(255, 255, 255);
-   position: absolute;
-   border-radius: 20px;
-   
+#cont1,
+#cont2,
+#cont3 {
+    height: 300px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 20px;
+
 }
-#cont4 , #cont5, #cont6{
+
+#cont4,
+#cont5,
+#cont6 {
     height: 300px;
     width: 200px;
     background-color: rgb(255, 255, 255);
     position: absolute;
     border-radius: 20px;
     top: 2650px;
-    
- }
 
-#cont1{
+}
+
+#cont1 {
     left: 300px;
 }
-#cont2{
+
+#cont2 {
     left: 850px;
 }
-#cont3{
-    right: 300px;
-}
-#cont4{
-    left: 300px;
-}
-#cont5{
-    left: 850px;
-}
-#cont6{
+
+#cont3 {
     right: 300px;
 }
 
-#cont1 div, #cont2 div,#cont3 div,#cont4 div, #cont5 div,#cont6 div{
+#cont4 {
+    left: 300px;
+}
+
+#cont5 {
+    left: 850px;
+}
+
+#cont6 {
+    right: 300px;
+}
+
+#cont1 div,
+#cont2 div,
+#cont3 div,
+#cont4 div,
+#cont5 div,
+#cont6 div {
     height: 150px;
     width: 200px;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    
+
 
 }
 
-#cont1:hover, #cont2:hover,#cont3:hover,#cont4:hover, #cont5:hover,#cont6:hover{
+#cont1:hover,
+#cont2:hover,
+#cont3:hover,
+#cont4:hover,
+#cont5:hover,
+#cont6:hover {
     background-color: black;
     transition: 0.5s;
     color: white;
 }
 
-#cont1 h1, #cont2 h1,#cont3 h1,#cont4 h1, #cont5 h1,#cont6 h1{
-   text-align: center;
-   font-size: 30px;
+#cont1 h1,
+#cont2 h1,
+#cont3 h1,
+#cont4 h1,
+#cont5 h1,
+#cont6 h1 {
+    text-align: center;
+    font-size: 30px;
 }
 
 
- /* This is last page */
+/* This is last page */
 
- #Contactpage{
+#Contactpage {
     height: 100vh;
     width: 100%;
-    background-color: aqua;
- }
- #calen{
+}
+
+#calen {
     height: 50vh;
     width: 100%;
     background-color: rgb(255, 255, 255);
- }
- #about{
+}
+
+#about {
     height: 50vh;
     width: 100%;
     background-image: url(pic/building2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
- 
- }
- #contabout{
+
+}
+
+#contabout {
     height: 50vh;
     width: 100%;
     border-top: 15px solid grey;
@@ -329,21 +375,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
- }
- #logs{
+}
+
+#logs {
     height: 500px;
     width: 400px;
     /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
- }
- #logs img{
+}
+
+#logs img {
     border-radius: 50%;
     height: 200px;
     position: absolute;
-    top: 3650px;  
- }
- #link{
+    top: 3650px;
+}
+
+#link {
     height: 70px;
     width: 400px;
 
@@ -352,8 +401,9 @@ header {
     gap: 30px;
     justify-content: center;
     align-items: center;
- }
- #link a{
+}
+
+#link a {
     display: grid;
     text-decoration: none;
     height: 35px;
@@ -363,12 +413,14 @@ header {
     align-items: center;
     background-color: rgb(205, 205, 205);
     color: blue;
- }
- #link a:hover{
+}
+
+#link a:hover {
     color: white;
     background-color: blue;
- }
- #atext{
+}
+
+#atext {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -376,8 +428,9 @@ header {
     align-items: center;
     color: white;
     top: 3850px;
- }
- #lods{
+}
+
+#lods {
     position: absolute;
     top: 3200px;
     height: 300px;
@@ -386,9 +439,455 @@ header {
     display: flex;
     justify-content: center;
     gap: 20px;
- }
- #lods img{
+}
+
+#lods img {
     height: 300px;
     width: 300px;
 
- }
+}
+
+@media (max-width: 480px) and (min-width: 300px) {
+    #top1 {
+        left: 20px;
+    }
+
+    #top1 img {
+        opacity: 0;
+    }
+
+    #top1 h1 {
+        font-size: 20px;
+        left: 10px;
+        top: 40px;
+        color: rgb(0, 0, 12);
+        font-size: 60PX;
+        width: 350px;
+    }
+
+    #top1 h2 {
+        left: 20px;
+        top: 180px;
+        color: rgb(0, 0, 0);
+    }
+
+    #click {
+        height: 30px;
+        width: 100%;
+
+    }
+
+
+    #click a {
+        font-size: 15px;
+    }
+
+    #Button {
+        gap: 20px;
+    }
+
+    #Button div {
+        height: 150px;
+        width: 120px;
+
+    }
+
+    #Button div i {
+        font-size: 30px;
+    }
+
+    #Button div:hover h2 {
+        opacity: 0;
+    }
+
+    #Button div h2 {
+        font-size: 15px;
+        bottom: 50px;
+
+    }
+
+    #Aboutpage {
+        height: 220vh;
+        width: 100%;
+        background-color: rgb(246, 245, 245);
+    }
+
+
+    #l1,
+    #l2 {
+        opacity: 0;
+    }
+
+
+
+    #ti h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+
+
+    #text1 {
+        left: 30px;
+        top: 2100px;
+    }
+
+
+    #text2 {
+        text-align: left;
+        left: 30px;
+        top: 1250px;
+    }
+
+    #Coursepage {
+        height: 160vh;
+        width: 100%;
+    }
+
+
+
+    #ll,
+    #rl {
+        opacity: 0;
+    }
+
+
+    #cont1,
+    #cont2 {
+        top: 3100px;
+    }
+
+    #cont3,
+    #cont4 {
+        top: 3500px;
+    }
+
+    #cont5,
+    #cont6 {
+        top: 3900px;
+    }
+
+    #cont1,
+    #cont3,
+    #cont5 {
+        left: 250px;
+    }
+
+    #cont2,
+    #cont4,
+    #cont6 {
+        left: 20px;
+    }
+
+
+    #lods {
+        display: none;
+
+    }
+
+    #calen {
+        display: none;
+    }
+
+    #logs img {
+        top: 4350px;
+    }
+
+    #atext {
+        top: 4550px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    #top1 {
+        left: 20px;
+    }
+
+    #top1 h1 {
+        width: 400px;
+    }
+
+    #top1 h2 {
+        top: 200px;
+    }
+
+    #click {
+        height: 50px;
+        width: 100%;
+
+    }
+
+
+    #click a {
+        font-size: 20px;
+    }
+
+    #Button {
+        gap: 20px;
+    }
+
+    #Button div {
+        height: 150px;
+        width: 120px;
+
+    }
+
+    #Button div i {
+        font-size: 30px;
+    }
+
+    #Button div:hover h2 {
+        opacity: 0;
+    }
+
+    #Button div h2 {
+        font-size: 15px;
+        bottom: 50px;
+
+    }
+
+    #Aboutpage {
+        height: 220vh;
+        width: 100%;
+        background-color: rgb(246, 245, 245);
+    }
+
+
+    #l1,
+    #l2 {
+        opacity: 0;
+    }
+
+
+
+    #ti h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+
+
+    #text1 {
+        left: 30px;
+        top: 2100px;
+    }
+
+
+    #text2 {
+        text-align: left;
+        left: 30px;
+        top: 1250px;
+    }
+
+    #Coursepage {
+        height: 110vh;
+        width: 100%;
+    }
+
+
+
+    #ll,
+    #rl {
+        opacity: 0;
+    }
+
+
+    #cont1,
+    #cont2,
+    #cont3 {
+        top: 3100px;
+    }
+
+
+
+    #cont5,
+    #cont6,
+    #cont4 {
+        top: 3500px;
+    }
+
+    #cont1,
+    #cont5 {
+        left: 250px;
+    }
+
+    #cont2,
+    #cont6 {
+        left: 20px;
+    }
+
+    #cont4,
+    #cont3 {
+        left: 480px;
+    }
+
+
+    #lods {
+        display: none;
+
+    }
+
+    #calen {
+        display: none;
+    }
+
+    #logs img {
+        top: 3950px;
+    }
+
+    #atext {
+        top: 4150px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    #top1 {
+        left: 20px;
+    }
+
+    #top1 h1 {
+        width: 500px;
+    }
+
+    #top1 h2 {
+        top: 200px;
+    }
+
+    #click {
+        height: 50px;
+        width: 100%;
+
+    }
+
+
+    #click a {
+        font-size: 20px;
+    }
+
+    #Button {
+        gap: 20px;
+    }
+
+    #Button div {
+        height: 150px;
+        width: 120px;
+
+    }
+
+    #Button div i {
+        font-size: 30px;
+    }
+
+    #Button div:hover h2 {
+        opacity: 0;
+    }
+
+    #Button div h2 {
+        font-size: 15px;
+        bottom: 50px;
+
+    }
+
+    #Aboutpage {
+        height: 150vh;
+        width: 100%;
+        background-color: rgb(246, 245, 245);
+         
+    }
+
+    #text1,
+    #text2 {
+        width: 700px;
+    }
+
+
+    #l1,
+    #l2 {
+        opacity: 0;
+    }
+
+
+
+    #ti h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+
+
+    #text1 {
+        left: 30px;
+        top: 1800px;
+        height: 500px;
+    }
+
+
+    #text2 {
+        text-align: left;
+        left: 30px;
+        top: 1250px;
+        height: 500px;
+    }
+
+    #Coursepage {
+        height: 110vh;
+        width: 100%;
+    }
+
+
+
+    #ll,
+    #rl {
+        opacity: 0;
+    }
+
+
+    #cont1,
+    #cont2,
+    #cont3 {
+        top: 2500px;
+    }
+
+
+
+    #cont5,
+    #cont6,
+    #cont4 {
+        top: 2900px;
+    }
+
+    #cont1,
+    #cont5 {
+        left: 320px;
+    }
+
+    #cont2,
+    #cont6 {
+        left: 20px;
+    }
+
+    #cont4,
+    #cont3 {
+        left: 600px;
+    }
+    #lods{
+        top: 3500px;
+    }
+    #lods img {
+        height: 100px;
+        width: 100px;
+    
+    }
+  
+
+    #logs img {
+        top: 3750px;
+    }
+
+    #atext {
+        top: 3950px;
+    }
+}
