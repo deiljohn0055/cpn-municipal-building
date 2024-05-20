@@ -1,0 +1,394 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    height: 400vh;
+    z-index: -99;
+}
+header {
+    height: 230px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/* This is 1st Page */
+.Homepage {
+    height: 750px;
+    width: 100%;
+    background-color:  rgb(246, 245, 245);
+}
+
+
+
+/* Homepage logo */
+#Sname {
+    height: 230px;
+    width: 100%;
+    background-image: url(pic/SKY.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top1 {
+    position: absolute;
+    height: 230px;
+    width: 1200px;
+    left: 20%;
+}
+
+#top1 img {
+    position: absolute;
+    top: 20px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#top1 h1 {
+    position: absolute;
+    left: 230px;
+    top: 60px;
+    color: rgb(0, 0, 12);
+    font-size: 60PX;
+}
+
+#top1 h2 {
+    position: absolute;
+    left: 240px;
+    top: 130px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* This is Navigation */
+
+#click {
+    height: 50px;
+    width: 100%;
+    background: rgb(4, 1, 56);
+    background: linear-gradient(90deg, rgb(153, 119, 8) 7%, rgb(0, 0, 0) 41%, rgb(15, 8, 1) 75%, rgb(223, 89, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 5px;
+    z-index: 1;
+}
+
+
+#click a {
+    color: aliceblue;
+    font-size: 1.5rem;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#click a:hover {
+    background-color: rgba(166, 166, 166, 0.315);
+}
+
+/* This is Bg Img */
+
+#bgpic {
+
+    height: 600px;
+    background-image: url(pic/building2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    background-position: center;
+
+
+
+}
+#black{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* this is for button */
+#Button {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+
+}
+
+#Button div {
+    height: 180px;
+    width: 200px;
+    background-color: rgb(245, 248, 248);
+    border: 2px solid rgb(4, 3, 3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#Button div i {
+    font-size: 60px;
+    color: rgb(247, 224, 193);
+}
+
+#Button div:hover i {
+    font-size: 80px;
+    color: rgb(58, 57, 57);
+    transition: 0.5s;
+}
+
+#Button div h2 {
+    position: absolute;
+    bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+/* This is 2nd page */
+#Aboutpage{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(246, 245, 245);
+}
+#ti{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: -200px;
+}
+#ti div{
+  background-color: black;
+  height: 5px;
+  width: 32%;
+  position: absolute;
+  top: 30px;
+  border-radius: 20px;
+}
+#l1{
+    left: 0px;
+}
+#l2{
+    right: 0px;
+}
+#ti h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+#text1 , #text2{
+        top: 1300px;
+        height: 700px;
+        width: 500px;
+        position: absolute;
+}
+
+#text1{  
+    left: 400px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+#text1 p, #text2 p{
+   font-size: 20px;
+}
+#text2{
+    text-align: left;
+    right: 400px;
+    color: rgb(0, 0, 0);
+}
+/* This is 3rd page */
+
+#Coursepage{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(99, 67, 7);
+}
+#title{
+ height: 200px;
+ width: 100%;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: aliceblue;
+}
+#ll, #rl{
+   background-color: aliceblue;
+   height: 5px;
+   width: 40%;
+   position: absolute;
+}
+#ll{
+    left: 0px;
+}
+#rl{
+  right: 0px;
+}
+
+#cont1 , #cont2, #cont3{
+   height: 300px;
+   width: 200px;
+   background-color: rgb(255, 255, 255);
+   position: absolute;
+   border-radius: 20px;
+   
+}
+#cont4 , #cont5, #cont6{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 20px;
+    top: 2650px;
+    
+ }
+
+#cont1{
+    left: 300px;
+}
+#cont2{
+    left: 850px;
+}
+#cont3{
+    right: 300px;
+}
+#cont4{
+    left: 300px;
+}
+#cont5{
+    left: 850px;
+}
+#cont6{
+    right: 300px;
+}
+
+#cont1 div, #cont2 div,#cont3 div,#cont4 div, #cont5 div,#cont6 div{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#cont1:hover, #cont2:hover,#cont3:hover,#cont4:hover, #cont5:hover,#cont6:hover{
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+}
+
+#cont1 h1, #cont2 h1,#cont3 h1,#cont4 h1, #cont5 h1,#cont6 h1{
+   text-align: center;
+   font-size: 30px;
+}
+
+
+ /* This is last page */
+
+ #Contactpage{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+ }
+ #calen{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+ }
+ #about{
+    height: 50vh;
+    width: 100%;
+    background-image: url(pic/building2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+ #contabout{
+    height: 50vh;
+    width: 100%;
+    border-top: 15px solid grey;
+    background-color: rgba(162, 114, 11, 0.581);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #logs{
+    height: 500px;
+    width: 400px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+ }
+ #logs img{
+    border-radius: 50%;
+    height: 200px;
+    position: absolute;
+    top: 3650px;  
+ }
+ #link{
+    height: 70px;
+    width: 400px;
+
+    margin-top: 400px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+ }
+ #link a{
+    display: grid;
+    text-decoration: none;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(205, 205, 205);
+    color: blue;
+ }
+ #link a:hover{
+    color: white;
+    background-color: blue;
+ }
+ #atext{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 3850px;
+ }
+ #lods{
+    position: absolute;
+    top: 3200px;
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+ #lods img{
+    height: 300px;
+    width: 300px;
+
+ }
