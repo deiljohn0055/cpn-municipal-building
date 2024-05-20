@@ -3,11 +3,11 @@
     margin: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    border: 1px solid;
+
 }
 
 body {
-    
+
     z-index: -99;
     width: 100%;
 }
@@ -16,7 +16,7 @@ header {
     height: 230px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    
+
 }
 
 /* This is 1st Page */
@@ -61,7 +61,7 @@ header {
     top: 60px;
     color: rgb(0, 0, 12);
     font-size: 60PX;
-    
+
 }
 
 #top1 h2 {
@@ -136,7 +136,7 @@ header {
     justify-content: center;
     z-index: 0;
     top: 500px;
-    
+
 
 }
 
@@ -273,8 +273,9 @@ header {
 #rl {
     right: 0px;
 }
-#supercont{
-    
+
+#supercont {
+
     height: 500px;
     display: flex;
     gap: 50px;
@@ -303,15 +304,18 @@ header {
 
 }
 
-#cont1,#cont4 {
+#cont1,
+#cont4 {
     left: 300px;
 }
 
-#cont2,#cont5 {
+#cont2,
+#cont5 {
     left: 850px;
 }
 
-#cont3,#cont6 {
+#cont3,
+#cont6 {
     right: 300px;
 }
 
@@ -441,6 +445,7 @@ header {
     align-items: center;
     color: white;
     top: 300px;
+    text-align: center;
 }
 
 #lods {
@@ -451,7 +456,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 20px;
-    
+
 }
 
 #lods img {
@@ -467,58 +472,109 @@ header {
     #text1 {
         left: 10%;
     }
+
     #text2 {
         right: 10%;
     }
 
-    #supercont{
+    #supercont {
         flex-wrap: wrap;
-        
+
     }
-    #lods{
+
+    #lods {
         flex-wrap: wrap;
     }
 
 }
+
 @media (max-width: 1270px) {
     #text1 {
         left: 5%;
     }
+
     #text2 {
         right: 5%;
     }
-    #top1{
+
+    #top1 {
         left: 10%;
     }
+
     @media (max-width: 1140px) {
-        #Aboutpage{
+        #Aboutpage {
             height: 160vh;
         }
+
         #text1 {
             left: 25%;
         }
+
         #text2 {
             top: 850px;
             left: 25%;
         }
-        #top1{
+
+        #top1 {
             left: 10%;
         }
-        #calen{
+
+        #calen {
             height: 60vh;
         }
-        #top1{
+
+        #top1 {
             width: 500px;
         }
-        #top1 h2{
+
+        #top1 h2 {
             top: 190px;
         }
-        #l2, #l1{
+
+        #l2,
+        #l1 {
             display: none;
         }
     }
+
+    @media (max-width: 980px) {
+        #Aboutpage {
+            height: 80vh;
+        }
+        #Homepage {
+            height: 50vh;
+        }
+
+        #text1 {
+            left: 25%;
+        }
+
+        #text2 {
+            top: 850px;
+            left: 25%;
+        }
+
+        #top1 {
+            left: 10%;
+        }
+
+        #calen {
+            height: 60vh;
+        }
+
+        #top1 {
+            width: 500px;
+        }
+
+        #top1 h2 {
+            top: 190px;
+        }
+
+        #l2,
+        #l1 {
+            display: none;
+        }
+    }
+
+
 }
-
-
-
-

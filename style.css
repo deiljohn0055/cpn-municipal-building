@@ -7,49 +7,66 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    display: flex;
     flex-direction: column;
 }
 
 .container {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
     padding: 20px;
-    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
     text-align: center;
 }
 
-h2 {
-    color: #333;
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-input[type="text"],
-input[type="password"] {
-    width: 90%;
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
     padding: 10px;
-    margin: 10px 0;
+    margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.container a {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.container a:hover {
-    background-color: #555;
+button:hover {
+    background-color: #4cae4c;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1em;
 }
 #home{
-    height: 200px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
   }
   #home a{
@@ -62,8 +79,8 @@ input[type="password"] {
     color: white;
     text-decoration: none;
     border-radius: 20px;
+    position: absolute;
   }
 #home a:hover {
   background-color: rgb(162, 156, 156);
 }
-
