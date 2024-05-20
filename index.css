@@ -16,14 +16,15 @@ header {
     height: 230px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-
+    
 }
 
 /* This is 1st Page */
 .Homepage {
-    height: 750px;
+    height: 100vh;
     width: 100%;
     background-color: rgb(246, 245, 245);
+    position: relative;
 }
 
 
@@ -35,12 +36,15 @@ header {
     background-image: url(pic/SKY.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
 }
 
 #top1 {
     position: absolute;
     height: 230px;
-    width: auto;
+    width: 1000px;
     left: 20%;
 }
 
@@ -57,6 +61,7 @@ header {
     top: 60px;
     color: rgb(0, 0, 12);
     font-size: 60PX;
+    
 }
 
 #top1 h2 {
@@ -130,6 +135,8 @@ header {
     display: flex;
     justify-content: center;
     z-index: 0;
+    top: 500px;
+    
 
 }
 
@@ -161,6 +168,7 @@ header {
     position: absolute;
     bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 
@@ -168,9 +176,10 @@ header {
 
 /* This is 2nd page */
 #Aboutpage {
-    height: 50vh;
+    height: 100vh;
     width: 100%;
     background-color: rgb(246, 245, 245);
+    position: relative;
 }
 
 #ti {
@@ -186,7 +195,7 @@ header {
 #ti div {
     background-color: black;
     height: 5px;
-    width: 32%;
+    width: 20%;
     position: absolute;
     top: 30px;
     border-radius: 20px;
@@ -207,14 +216,14 @@ header {
 
 #text1,
 #text2 {
-    top: 1300px;
+    top: 200px;
     height: 700px;
     width: 500px;
     position: absolute;
 }
 
 #text1 {
-    left: 400px;
+    left: 15%;
     color: rgb(0, 0, 0);
     text-align: left;
 }
@@ -226,7 +235,7 @@ header {
 
 #text2 {
     text-align: left;
-    right: 400px;
+    right: 15%;
     color: rgb(0, 0, 0);
 }
 
@@ -236,6 +245,7 @@ header {
     height: 100vh;
     width: 100%;
     background-color: rgb(99, 67, 7);
+    position: relative;
 }
 
 #title {
@@ -263,6 +273,14 @@ header {
 #rl {
     right: 0px;
 }
+#supercont{
+    
+    height: 500px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
 
 #cont1,
 #cont2,
@@ -270,7 +288,6 @@ header {
     height: 300px;
     width: 200px;
     background-color: rgb(255, 255, 255);
-    position: absolute;
     border-radius: 20px;
 
 }
@@ -281,35 +298,26 @@ header {
     height: 300px;
     width: 200px;
     background-color: rgb(255, 255, 255);
-    position: absolute;
     border-radius: 20px;
-    top: 2650px;
+    top: 550px;
 
 }
 
-#cont1 {
+#cont1,#cont4 {
     left: 300px;
 }
 
-#cont2 {
+#cont2,#cont5 {
     left: 850px;
 }
 
-#cont3 {
+#cont3,#cont6 {
     right: 300px;
 }
 
-#cont4 {
-    left: 300px;
-}
 
-#cont5 {
-    left: 850px;
-}
 
-#cont6 {
-    right: 300px;
-}
+
 
 #cont1 div,
 #cont2 div,
@@ -353,6 +361,7 @@ header {
 #Contactpage {
     height: 100vh;
     width: 100%;
+    position: relative;
 }
 
 #calen {
@@ -386,13 +395,14 @@ header {
     /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 #logs img {
     border-radius: 50%;
     height: 200px;
     position: absolute;
-    top: 3650px;
+    top: 100px;
 }
 
 #link {
@@ -430,328 +440,85 @@ header {
     justify-content: center;
     align-items: center;
     color: white;
-    top: 3850px;
+    top: 300px;
 }
 
 #lods {
     position: absolute;
-    top: 3200px;
+    top: 100px;
     height: 300px;
     width: 100%;
-
     display: flex;
     justify-content: center;
     gap: 20px;
+    
 }
 
 #lods img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 
 }
 
 
 
 
-
-
-@media (max-width: 768px) and (min-width: 381px) {
-    #top1 {
-        left: 20px;
-    }
-
-    #top1 h1 {
-        width: 400px;
-    }
-
-    #top1 h2 {
-        top: 200px;
-    }
-
-    #click {
-        height: 50px;
-        width: 100%;
-
-    }
-
-
-    #click a {
-        font-size: 20px;
-    }
-
-    #Button {
-        gap: 20px;
-    }
-
-    #Button div {
-        height: 150px;
-        width: 120px;
-
-    }
-
-    #Button div i {
-        font-size: 30px;
-    }
-
-    #Button div:hover h2 {
-        opacity: 0;
-    }
-
-    #Button div h2 {
-        font-size: 15px;
-        bottom: 50px;
-
-    }
-
-    #Aboutpage {
-        height: 150vh;
-        width: 100%;
-    }
-
-
-    #l1,
-    #l2 {
-        opacity: 0;
-    }
-
-
-
-    #ti h1 {
-        font-size: 50px;
-        text-align: center;
-
-    }
-
-
-
+@media (max-width: 1460px) {
     #text1 {
-        left: 30px;
-        top: 2000px;
+        left: 10%;
     }
-
-
     #text2 {
-        text-align: left;
-        left: 30px;
-        top: 1250px;
+        right: 10%;
     }
 
-    #Coursepage {
-        height: 110vh;
-        width: 100%;
-    }
-
-
-
-    #ll,
-    #rl {
-        opacity: 0;
-    }
-
-
-    #cont1,
-    #cont2,
-    #cont3 {
-        top: 3100px;
-    }
-
-
-
-    #cont5,
-    #cont6,
-    #cont4 {
-        top: 3500px;
-    }
-
-    #cont1,
-    #cont5 {
-        left: 250px;
-    }
-
-    #cont2,
-    #cont6 {
-        left: 20px;
-    }
-
-    #cont4,
-    #cont3 {
-        left: 480px;
-    }
-
-
-    #lods{
-        top: 4300px;
-    }
-    #lods img {
-        height: 100px;
-        width: 100px;
-    
-    }
-  
-
-    #logs img {
-        top: 4550px;
-    }
-
-    #atext {
-        top: 4750px;
-    }
-}
-
-
-
-@media (max-width: 1024px) and (min-width: 769px) {
-    #top1 {
-        left: 20px;
-    }
-
-    #top1 h1 {
-        width: 500px;
-    }
-
-    #top1 h2 {
-        top: 200px;
-    }
-
-    #click {
-        height: 50px;
-        width: 100%;
-
-    }
-
-
-    #click a {
-        font-size: 20px;
-    }
-
-    #Button {
-        gap: 20px;
-    }
-
-    #Button div {
-        height: 150px;
-        width: 120px;
-
-    }
-
-    #Button div i {
-        font-size: 30px;
-    }
-
-    #Button div:hover h2 {
-        opacity: 0;
-    }
-
-    #Button div h2 {
-        font-size: 15px;
-        bottom: 50px;
-
-    }
-
-    #Aboutpage {
-        height: 60vh;
-        width: 100%;
-        background-color: rgb(246, 245, 245);
-         
-    }
-
-    #text1,
-    #text2 {
-        width: 700px;
-    }
-
-
-    #l1,
-    #l2 {
-        opacity: 0;
-    }
-
-
-
-    #ti h1 {
-        font-size: 50px;
-        text-align: center;
-  
-    }
-
-
-
-    #text1 {
-        left: 30px;
-        top: 1800px;
-        height: 500px;
-    }
-
-
-    #text2 {
-        text-align: left;
-        left: 30px;
-        top: 1250px;
-        height: 500px;
-    }
-
-    #Coursepage {
-        height: 50vh;
-        width: 100%;
-    }
-
-
-
-    #ll,
-    #rl {
-        opacity: 0;
-    }
-
-
-    #cont1,
-    #cont2,
-    #cont3 {
-        top: 2600px;
-    }
-
-
-
-    #cont5,
-    #cont6,
-    #cont4 {
-        top: 3000px;
-    }
-
-    #cont1,
-    #cont5 {
-        left: 400px;
-    }
-
-    #cont2,
-    #cont6 {
-        left: 80px;
-    }
-
-    #cont4, #cont3 {
-        left: 720px;
+    #supercont{
+        flex-wrap: wrap;
+        
     }
     #lods{
-        top: 3500px;
-    }
-    #lods img {
-        height: 100px;
-        width: 100px;
-    
-    }
-     #calen{
-        height: 400px;
-     }
-
-    #logs img {
-        top: 4150px;
+        flex-wrap: wrap;
     }
 
-    #atext {
-        top: 4350px;
-        text-align: center;
+}
+@media (max-width: 1270px) {
+    #text1 {
+        left: 5%;
     }
-    #Contactpage{
-        height: auto;
+    #text2 {
+        right: 5%;
+    }
+    #top1{
+        left: 10%;
+    }
+    @media (max-width: 1140px) {
+        #Aboutpage{
+            height: 160vh;
+        }
+        #text1 {
+            left: 25%;
+        }
+        #text2 {
+            top: 850px;
+            left: 25%;
+        }
+        #top1{
+            left: 10%;
+        }
+        #calen{
+            height: 60vh;
+        }
+        #top1{
+            width: 500px;
+        }
+        #top1 h2{
+            top: 190px;
+        }
+        #l2, #l1{
+            display: none;
+        }
     }
 }
+
+
+
 
