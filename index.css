@@ -2,11 +2,14 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    border: 1px solid;
 }
 
 body {
     height: 400vh;
     z-index: -99;
+    width: 100%;
 }
 
 header {
@@ -37,7 +40,7 @@ header {
 #top1 {
     position: absolute;
     height: 230px;
-    width: 1200px;
+    width: auto;
     left: 20%;
 }
 
@@ -123,7 +126,7 @@ header {
     position: absolute;
     height: 200px;
     width: 100%;
-    bottom: 5px;
+    height: 200px;
     display: flex;
     justify-content: center;
     z-index: 0;
@@ -507,7 +510,7 @@ header {
     }
 
     #Aboutpage {
-        height: 220vh;
+        height: 150vh;
         width: 100%;
         background-color: rgb(246, 245, 245);
     }
@@ -523,14 +526,14 @@ header {
     #ti h1 {
         font-size: 50px;
         text-align: center;
-        margin-top: 150px;
+        margin-top: -100px;
     }
 
 
 
     #text1 {
         left: 30px;
-        top: 2100px;
+        top: 2000px;
     }
 
 
@@ -581,23 +584,24 @@ header {
     }
 
 
-    #lods {
-        display: none;
-
+    #lods{
+        top: 4700px;
     }
-
-    #calen {
-        display: none;
+    #lods img {
+        height: 100px;
+        width: 100px;
+    
     }
-
     #logs img {
-        top: 4350px;
+        top: 5050px;
     }
 
     #atext {
-        top: 4550px;
+        top: 5250px;
     }
 }
+
+
 
 @media (max-width: 768px) and (min-width: 481px) {
     #top1 {
@@ -648,9 +652,8 @@ header {
     }
 
     #Aboutpage {
-        height: 220vh;
+        height: 150vh;
         width: 100%;
-        background-color: rgb(246, 245, 245);
     }
 
 
@@ -664,14 +667,14 @@ header {
     #ti h1 {
         font-size: 50px;
         text-align: center;
-        margin-top: 150px;
+
     }
 
 
 
     #text1 {
         left: 30px;
-        top: 2100px;
+        top: 2000px;
     }
 
 
@@ -724,23 +727,26 @@ header {
     }
 
 
-    #lods {
-        display: none;
-
+    #lods{
+        top: 4300px;
     }
-
-    #calen {
-        display: none;
+    #lods img {
+        height: 100px;
+        width: 100px;
+    
     }
+  
 
     #logs img {
-        top: 3950px;
+        top: 4550px;
     }
 
     #atext {
-        top: 4150px;
+        top: 4750px;
     }
 }
+
+
 
 @media (max-width: 1024px) and (min-width: 769px) {
     #top1 {
@@ -813,7 +819,7 @@ header {
     #ti h1 {
         font-size: 50px;
         text-align: center;
-        margin-top: 150px;
+  
     }
 
 
@@ -891,3 +897,4 @@ header {
         top: 3950px;
     }
 }
+
